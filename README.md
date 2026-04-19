@@ -1,16 +1,62 @@
-# React + Vite
+# 🐾 Pet Sitter - Marcela Moura
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é o projeto final do meu curso de desenvolvimento Frontend, focado na criação de uma _Landing Page_ para serviços de Pet Sitter.
 
-Currently, two official plugins are available:
+A aplicação apresenta os serviços oferecidos, uma seção "Sobre Mim" e opções de cadastro para tutores de animais.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🎨 Design & Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Baseado nas imagens fornecidas, o projeto possui:
 
-## Expanding the ESLint configuration
+* **Cabeçalho com Degradê:**
+* **Logo Customizado:** 
+* **Banner Principal:** 
+* **Seção de Serviços:** Cards com ícones detalhando os serviços:
+    * **Passeios:** 
+    * **Comida:** 
+    * **Medicamentos:** 
+    * **Dormir Juntos:** 
+* **Seção Sobre Mim:** Apresentação pessoal.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tecnologias Utilizadas
+
+Este projeto foi construído utilizando:
+
+* **React.js** - Biblioteca JavaScript para construção da interface.
+* **CSS3** - Para toda a estilização, incluindo os degradês e o design responsivo dos cards.
+
+---
+
+## 🚀 Como Executar o Projeto Localmente
+
+1.  **Clone este repositório:**
+    ```bash
+    git clone [https://github.com/MarcelaMourar/projeto-final-frontend.git](https://github.com/MarcelaMourar/projeto-final-frontend.git)
+    ```
+
+2.  **Acesse a pasta do projeto:**
+    ```bash
+    cd projeto-final-frontend
+    ```
+
+3.  **Certifique-se de estar na branch correta (se necessário):**
+    ```bash
+    git checkout stage-react-api
+    ```
+
+4.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
+
+5.  **Inicie o servidor de desenvolvimento:**
+    ```bash
+    npm start
+    ```
+    O projeto abrirá automaticamente em `http://localhost:3000`.
+
+---
+
+> Projeto desenvolvido como parte da avaliação final do curso.
