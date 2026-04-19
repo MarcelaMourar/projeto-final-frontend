@@ -1,8 +1,8 @@
 import logo from "../../images/logo.png";
-
+import NavBar from "../Navigation/Navigation";
 import "../blocks/header.css";
 
-function Header () {
+function Header({ onLoginClick, onRegisterClick }) {
     return(
         <header className="header">
             <img
@@ -10,7 +10,7 @@ function Header () {
             alt="imagem da logo"
             className= "header__logo"
             />
-            
+           <NavBar onLogin={onLoginClick} onRegister={onRegisterClick} />
         </header>
     );
 }

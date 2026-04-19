@@ -1,0 +1,152 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modal__container {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 20px;
+  position: relative; 
+  width: 90%;
+  max-width: 430px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes modal-appear {
+  from { transform: translateY(-50px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.modal__close {
+  position: absolute;
+  top: -30px; 
+  right: -30px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  width: 30px;
+  height: 30px;
+  transition: transform 0.2s ease;
+}
+
+
+.modal__close-icon {
+  width: 20px;
+  height: 20px;
+  display: block;
+  object-fit: contain;
+}
+
+.modal__title {
+  margin: 0 0 25px;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  color: #000;
+  text-align: center;
+  
+}
+
+
+.modal__form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.modal__form input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.modal__button {
+  background-color: #f16588; 
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.modal__button:hover {
+  opacity: 0.8;
+}
+
+.modal__message {
+  color: #000000;      
+  text-align: center;  
+  margin-bottom: 20px; 
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.modal__button--center {
+  display: block;     
+  margin-left: auto;   
+  margin-right: auto;  
+  min-width: 150px;    
+}
+
+
+.modal__error {
+  color: #ff4d4d;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: Arial, sans-serif;
+}
+
+
+.modal__footer {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+
+.modal__footer .modal__button {
+  margin-top: 0;
+  padding: 10px 25px;
+  border-radius: 50px; 
+  width: auto; 
+}
+
+.modal__switch-text {
+  
+  color: #000;
+  font-family: Arial, sans-serif;
+}
+
+.modal__switch-text span {
+  color:  #f16588;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.modal__switch-text span:hover {
+  text-decoration: underline;
+}
+
+
+.modal__button--center {
+  display: block;
+  margin: 20px auto 0;
+}

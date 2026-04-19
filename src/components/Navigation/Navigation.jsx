@@ -1,10 +1,10 @@
-function Navigation() {
+function NavBar({ onLogin, onRegister }) {
     return (
         <nav className="navigation" >
-          <button className="navigation__button" >Conectar</button>
-          <button className="navigation__button navigation__button">Inscreva-se</button>
+          <button className="navigation__button" onClick={onLogin} > 🐾 Conectar</button>
+          <button className="navigation__button navigation__button" onClick={onRegister}> ✨ Inscreva-se</button>
           </nav>
     );
 }
 
-export default Navigation;
+export default NavBar;
