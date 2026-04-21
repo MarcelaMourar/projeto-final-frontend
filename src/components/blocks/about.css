@@ -1,0 +1,41 @@
+.about {
+    display: flex;
+    align-items: center;     
+    justify-content: center;   
+    gap: 50px;                
+    padding: 60px 20px;
+    max-width: 1000px;         
+    margin: 0 auto;           
+}
+
+.about__image {
+    width: 300px;             
+    height: 300px;
+    border-radius: 50%;       
+    object-fit: cover;        
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.about__content {
+    max-width: 500px;         
+}
+
+.about__title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.about__text {
+    font-size: 18px;
+    line-height: 1.6;         
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+

@@ -1,0 +1,44 @@
+.header {
+    position: relative; 
+    width: 100%;
+    box-sizing: border-box;
+    height: 350px; 
+    margin: 0 auto;
+    overflow: hidden; 
+     display: flex;
+    justify-content: center; 
+    align-items: center;     
+    padding: 20px 40px;     
+    background: linear-gradient(to right, #8e44ad, #3498db);
+}
+
+
+.header__logo {
+    width: auto;              
+    height: 500px;             
+    object-fit: contain; 
+    z-index: 1;               
+}
+
+.navigation { 
+    position: absolute;   
+    top: 20px;            
+    right: 20px;          
+    z-index: 2; 
+    display: flex;
+    gap: 5px;
+}
+
+.navigation__button {
+    background-color: #6161f4;
+    color: white;
+    transition: background 0.3s ease;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border: 1px solid #353335;
+}
+
+.navigation button:hover {
+    background-color: #3498db; 
+    }

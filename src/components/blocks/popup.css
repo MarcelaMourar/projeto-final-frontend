@@ -1,0 +1,10 @@
+body {
+  font-family: "Inter", sans-serif;
+  background: rgb(185, 180, 239);
+  color: white;
+}
+.page {
+  max-width: 1280px;
+  min-width: 320px;
+  margin: 0 auto;
+}
