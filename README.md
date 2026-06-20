@@ -1,62 +1,62 @@
 # 🐾 Pet Sitter - Marcela Moura
 
-Este é o projeto final do meu curso de desenvolvimento Frontend, focado na criação de uma _Landing Page_ para serviços de Pet Sitter.
+This is the final project of my Frontend development course. It is a landing page for pet sitting services.
 
-A aplicação apresenta os serviços oferecidos, uma seção "Sobre Mim" e opções de cadastro para tutores de animais.
-
----
-
-## 🎨 Design & Funcionalidades
-
-Baseado nas imagens fornecidas, o projeto possui:
-
-* **Cabeçalho com Degradê:**
-* **Logo Customizado:** 
-* **Banner Principal:** 
-* **Seção de Serviços:** Cards com ícones detalhando os serviços:
-    * **Passeios:** 
-    * **Comida:** 
-    * **Medicamentos:** 
-    * **Dormir Juntos:** 
-* **Seção Sobre Mim:** Apresentação pessoal.
-
-## 🛠️ Tecnologias Utilizadas
-
-Este projeto foi construído utilizando:
-
-* **React.js** - Biblioteca JavaScript para construção da interface.
-* **CSS3** - Para toda a estilização, incluindo os degradês e o design responsivo dos cards.
+The application shows the services offered, an "About Me" section, and registration options for pet owners.
 
 ---
 
-## 🚀 Como Executar o Projeto Localmente
+## 🎨 Design & Features
 
-1.  **Clone este repositório:**
-    ```bash
+Based on the provided images, the project includes:
+
+* **Header with Gradient:**
+* **Custom Logo:** 
+* **Main Banner:** 
+* **Services Section:** Cards with icons detailing the services:
+    * **Dog Walking:** 
+    * **Feeding:** 
+    * **Medication:** 
+    * **Overnight Stays:** 
+* **About Me Section:** A personal introduction.
+
+## 🛠️ Technologies Used
+
+This project was built using:
+
+* **React.js** - A JavaScript library for building the user interface.
+* **CSS3** - For all the styling, including gradients and responsive card design.
+
+---
+
+## 🚀 How to Run the Project Locally
+
+1. **Clone this repository:**
+```bash
     git clone [https://github.com/MarcelaMourar/projeto-final-frontend.git](https://github.com/MarcelaMourar/projeto-final-frontend.git)
     ```
 
-2.  **Acesse a pasta do projeto:**
-    ```bash
+2. **Go to the project folder:**
+```bash
     cd projeto-final-frontend
     ```
 
-3.  **Certifique-se de estar na branch correta (se necessário):**
-    ```bash
+3. **Make sure you are on the correct branch (if needed):**
+```bash
     git checkout stage-react-api
     ```
 
-4.  **Instale as dependências:**
-    ```bash
+4. **Install the dependencies:**
+```bash
     npm install
     ```
 
-5.  **Inicie o servidor de desenvolvimento:**
-    ```bash
+5. **Start the development server:**
+```bash
     npm start
     ```
-    O projeto abrirá automaticamente em `http://localhost:3000`.
+    The project will automatically open at `http://localhost:3000`.
 
 ---
 
-> Projeto desenvolvido como parte da avaliação final do curso.
+> This project was developed as part of the final course evaluation.
