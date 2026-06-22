@@ -1,8 +1,9 @@
 # 🐾 Pet Sitter - Marcela Moura
 
 This is the final project of my Frontend development course. It is a landing page for pet sitting services.
-
 The application shows the services offered, an "About Me" section, and registration options for pet owners.
+
+🌐 **Live Demo:** https://projeto-final-frontend-rho.vercel.app/
 
 ---
 
@@ -24,8 +25,9 @@ Based on the provided images, the project includes:
 
 This project was built using:
 
-* **React.js** - A JavaScript library for building the user interface.
-* **CSS3** - For all the styling, including gradients and responsive card design.
+* **JavaScript (Vanilla)** - Core application logic and interactivity.
+* **HTML5** - Semantic structure of the application.
+* **CSS3** - For all the styling, including gradients and responsive card design
 
 ---
 
@@ -33,7 +35,7 @@ This project was built using:
 
 1. **Clone this repository:**
 ```bash
-    git clone [https://github.com/MarcelaMourar/projeto-final-frontend.git](https://github.com/MarcelaMourar/projeto-final-frontend.git)
+    git clone https://github.com/MarcelaMourar/projeto-final-frontend.git
     ```
 
 2. **Go to the project folder:**
@@ -59,4 +61,4 @@ This project was built using:
 
 ---
 
-> This project was developed as part of the final course evaluation.
+* 🎓 This project was developed as part of the final course evaluation.
